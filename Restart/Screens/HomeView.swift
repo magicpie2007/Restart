@@ -16,7 +16,8 @@ struct HomeView: View {
             Spacer()
 
             ZStack {
-                CircleGroupView(ShapeColor: .gray, ShapeOpacity: 0.1)
+                CircleGroupView(ShapeColor: .gray,
+                                ShapeOpacity: 0.1)
 
                 Image("character-2")
                     .resizable()
@@ -42,7 +43,8 @@ struct HomeView: View {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)
                 Text("Restart")
-                    .font(.system(.title3, design: .rounded))
+                    .font(.system(.title3,
+                                  design: .rounded))
                     .fontWeight(.bold)
             } //: BUTTON
             .buttonStyle(.borderedProminent)
